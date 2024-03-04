@@ -1,0 +1,166 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    /* outline: auto red; */
+}
+
+.section {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 10%;
+}
+
+.header {
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 100px;
+    margin-top: -60px;
+}
+
+.header .logo-text {
+    text-wrap: nowrap;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;  
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+nav ul li {
+    text-wrap: nowrap;
+    float: right;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.hero-text {
+    width: 40%;
+    margin-right: 100px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero .image {
+    width: 40%;
+    height: auto;
+    background-color: grey;
+    flex:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section.two {
+    justify-content: space-evenly;
+    
+}
+
+.section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.section.two .section-box {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-box-image {
+    width: 150px;
+    height: 160px;
+    outline: #3882F6 solid 4px;
+    border-radius: 10px;
+}
+
+.section-box p {
+    text-align: center;
+}
+
+.grey {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.grey p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.CTA {
+    background-color: #3882F6;
+    display: flex;
+    flex: auto;
+    border-radius: 5px;
+    padding: 40px 100px;
+    color: white;
+    align-items: center;
+}
+
+.CTA h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.CTA-text {
+    flex: auto;
+}
+
+.CTA button {
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    outline: white solid 2px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    padding: 0 40px;
+}
+
+.section.footer {
+    background-color: #1F2937;
+    padding: 40px 10%;
+    color: white;
+    justify-content: center;
+}
